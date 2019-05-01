@@ -32,6 +32,19 @@ def bubble_sort(arr):
         i += 1
     return arr
 
+# def bubble_sort(arr):
+#     swapped = True  # O(1)
+#     while swapped is True:  # O(n)
+#         swapped = False  # O(1)
+#         print(arr)
+#         for i in range(1, len(arr)):  # O(n)
+#             if arr[i - 1] > arr[i]:  # O(1)
+#                 temp = arr[i]  # O(1)
+#                 arr[i] = arr[i-1]  # O(1)
+#                 arr[i-1] = temp  # O(1)
+#                 swapped = True  # O(1)
+#         print(swapped)
+#     return arr
 
 print(bubble_sort([1, 5, 8, 4, 2, 9, 6, 0, 3, 7]))
 
